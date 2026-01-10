@@ -6,7 +6,7 @@
 This repository investigates the determinacy of Lipparini's infinite combinatorial Nim sums through AI-driven probabilistic simulations and mathematical analysis.
 
 **Research question:**  
-Can we prove determinacy in Lipparini's infinite combinatorial Nim sums using AI probabilistic simulations?
+Is every finite-support Lipparini Nim position h ∈ N∞ determined via nim-sum for ∣supp(h)∣ ≤ 60 and pairing strategies for larger supports?
 
 By simulating large datasets of game positions and applying machine learning models, the project seeks patterns and empirical evidence supporting (or challenging) determinacy in these infinite games.
 
@@ -16,7 +16,6 @@ By simulating large datasets of game positions and applying machine learning mod
 
 | File                                  | Description                                                         |
 |----------------------------------------|---------------------------------------------------------------------|
-| `app.py`                              | Main application/UI or experiment runner.                           |
 | `infinite_nim_lipparini_50000.csv`     | Dataset of 50,000 simulated infinite Nim sum positions.             |
 | `lippariniNimSumsSim.py`               | Simulates infinite Nim games and generates datasets.                |
 | `main.py`                             | Central runner for simulations, experiments, and ML predictions.    |
@@ -37,7 +36,7 @@ By simulating large datasets of game positions and applying machine learning mod
 ## Getting Started
 
 1. **Clone the repository**
-git clone https://github.com/SumukhKoundinya/Infinite-Combinatorial-Game-Sums-ISEF
+git clone https://github.com/SumukhKoundinya/Determinacy-in-Lipparini-s-Dadaist-Sums
 
 2. **Install dependencies**
 
